@@ -5,7 +5,6 @@ import java.util.*;
 /**
  * Region growing algorithm: finds and holds regions in an image.
  * Each region is a list of contiguous points with colors similar to a target color.
- * Scaffold for PS-1, Dartmouth CS 10, Fall 2016
  * 
  * @author Chris Bailey-Kellogg, Winter 2014 (based on a very different structure from Fall 2012)
  * @author Travis W. Peters, Dartmouth CS 10, Updated Winter 2015
@@ -13,8 +12,6 @@ import java.util.*;
  *
  * @author Sajjad
  * @author Josue
- * We implemented all the code for findRegions, colorMatch, largestRegion, and recolorImage.
- * Completed all the to do code for the PS1 assignment.
  */
 public class RegionFinder {
 	private static final int maxColorDiff = 20;				// how similar a pixel color must be to the target color, to belong to a region
