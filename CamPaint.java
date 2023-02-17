@@ -6,13 +6,11 @@ import javax.swing.*;
 
 /**
  * Webcam-based drawing 
- * Scaffold for PS-1, Dartmouth CS 10, Fall 2016
  * 
  * @author Chris Bailey-Kellogg, Spring 2015 (based on a different webcam app from previous terms)
  *
  * @author Sajjad
  * @author Josue
- * We completed all the to do code for the PS1 assignment.
  */
 public class CamPaint extends Webcam {
 	private char displayMode = 'w';			// what to display: 'w': live webcam, 'r': recolored image, 'p': painting
